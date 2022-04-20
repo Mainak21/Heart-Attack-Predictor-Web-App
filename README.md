@@ -3,6 +3,7 @@
 This project has been done using `Azure App Service` platform on Microsoft Azure. I have deployed a `Web App` to predict possibilities of heart attack in a patient. I have used `Support Vector Machine (SVM)` classification model of `Machine Learning (ML)` to predict the required results. This repository consists of mainly python, html, css files and little bit of javascript to animate the texts inside the html files. Also I have used `Flask` library to intergate the ML model to the web application.
 
 Website link - https://heartattackpredictor.azurewebsites.net/
+
 (It has active service time 60 mins/day only as free F1 service has been used. Currently services have been stopped, so the above website will not work.)
 
 ## Dataset
