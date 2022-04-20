@@ -31,6 +31,9 @@ The dataset has 13 descision parameters with a 'num' column, which represents th
 13. `Thalassemia (thal)`: 1 = normal,2 = fixeddefect, 3 = reversible defect
 14. `num`: It's the prediction column for diagnosis of heart attacks. Here, 0 = no possibility of heart attack and 1 = possibilities of heart attack
 
+![Dist](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/PossibilityDistwithAge.png)
+![Pairplot](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/Pairplot.png)
+
 ## Idea
 The main idea of this project is to find out the most accurate machine learning model to predict the presence of heart disease in a patient and deploy the predictor in a web app service.
 
@@ -40,8 +43,28 @@ Initially I have used the [Cleveland Data](https://github.com/Mainak21/Heart-Att
 ## Procedure
 Here I have used three platforms `Virtual Studio Code`, `GitHub` and `Azure Web App` to deploy the codes.
 
+### Models
+Trained different **Machine Learning** models to get the best accuracy for this dataset.
+Accuracies :
+- **K-Nearest Neighbour (KNN)** : 83.33 %
+- **Decision Tree** : 78.33 %
+- **Support Vector Machine (SVM)** : 90 %
+- **Random Forest** : 88.33 %
+- **XGBoost** : 85 %
+- **Artificial Neural Network (ANN)** : 86.67 %
+
+![ANNacc](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/ANNmodelAccuracy.png)
+![ANNloss](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/ANNmodelLoss.png)
+
+### Models' Accuracy
+![ANNacc](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/ModelAccuracy.png)
+![ANNacc](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/AccuracyBarPlot.png)
+
+### LIBSVM
+Trained and tested the SVM model with standard [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) library and found accuracy of 86.67 %.
+
 ### VS Code
-- `classfier.py` : tried with different ML classifier models and found SVM classifier has better accuracy than others. Loaded the model with train & test data and found 83.33% accuarcy.
+- `classfier.py` : SVM classifier with best hyperparameters is chosen as main model, as it has better accuracy than other models. Loaded the model with train & test data and found 90% accuarcy.
 - 
 ![accuracy](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/project-screenshots/accuracy.png)
 
