@@ -61,7 +61,7 @@ Accuracies :
 ![ANNacc](https://github.com/Mainak21/Heart-Attack-Predictor-Web-App/blob/master/AllModelsOutput/AccuracyBarPlot.png)
 
 ### LIBSVM
-Trained and tested the SVM model with standard [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) library and found accuracy of 86.67 %.
+Trained and tested the SVM model with standard [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) library also and found accuracy of 86.67 %.
 
 ### VS Code
 - `classfier.py` : SVM classifier with best hyperparameters is chosen as main model, as it has better accuracy than other models. Loaded the model with train & test data and found 90% accuarcy.
@@ -115,3 +115,4 @@ Got the output **0** i.e. **no possibilities of heart attack**.
 1. A Machine Learning Approach for Heart Attack Prediction, Suraj Kumar Gupta; https://www.ijeat.org/portfolio-item/f30430810621/
 2. Using Machine Learning Classification Methods to Detect the Presence of Heart Disease, Nestor Pereira; https://www.semanticscholar.org/paper/Using-Machine-Learning-Classification-Methods-to-of-Pereira/6a1468c1075462f256047249634ffb2b1a8f9c1b
 3. Prediction and Classification of Heart Disease using AML and Power BI, Debmalya Chatterjee; https://www.semanticscholar.org/paper/Prediction-and-Classification-of-Heart-Disease-AML-Chatterjee-Chandran/4b8752094686b7046fa22978f8e37b1fa5397fb7
+4. LIBSVM - a library for SVMs; https://www.csie.ntu.edu.tw/~cjlin/libsvm/
